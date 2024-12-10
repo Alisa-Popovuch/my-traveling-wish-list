@@ -1,0 +1,116 @@
+body {
+  /* background: linear-gradient(243deg, rgba(255,218,212,1) 26%, rgba(255,235,235,1) 76%); */
+  background: #F5EEE6;
+  /* background: linear-gradient(243deg, rgba(255,248,227,1) 46%, rgba(245,238,230,1) 65%); */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  float:left;
+  position: relative;
+  width: 37%;
+  padding-bottom: 34%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.image {
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 87%;
+  height: 87%;
+}
+
+.btn {
+  position: absolute;
+  bottom: -90px;
+  padding: 10px;
+}
+
+.button {
+  background: #E6A4B4;
+  border: none;
+  border-radius: 10px;
+  width: 350px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 7%;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.changeClass {
+  background: #F5EEE6;
+  width: 400px;
+  width: 90%;
+  /* padding: 5px 0px 20px; */
+}
+
+p {
+  font-family: "Lobster Two", sans-serif;
+  font-size: 22px;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 30px;
+}
+
+h1 {
+  letter-spacing: 12px;
+  font-size: 110px;
+  font-family: "Lobster Two", sans-serif;
+  padding: 20px;
+  margin-top: 0;
+  color: #3C3633;
+}
+
+h2 {
+  letter-spacing: 22px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 50px;
+  margin-bottom: 0;
+  color: #3C3633;
+}
+
+/* .header {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 90%;
+  width: 70%;
+
+} */
+
+
+
+
+
+/* p {
+  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Lobster Two", sans-serif; */
+  /* font-size: 23px;
+} */
+
+
+
+/* button {
+  font-family: "Lobster Two", sans-serif; */
+  /* font-family: "Roboto Condensed", sans-serif; */
+  /* font-size: 23px;
+} */
+
+/* .showMore {
+  border: none;
+  color: blue;
+}  */
