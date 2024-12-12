@@ -20,14 +20,14 @@ function  App() {
     setDrems(newDreams);
   }
 
-    // const showNewText = () => {
-    //   showMore && (
-    //     <div>
-    //       <h3> {place} </h3>
-    //       <p> {description} </p>
-    //     </div>
-    //   )
-    // }
+    const showNewText = () => {
+      showMore && (
+        <div>
+            <h3> {place} </h3>
+            <p> {description} </p>
+          </div>
+        )
+      }
 
   return (
     <div>
