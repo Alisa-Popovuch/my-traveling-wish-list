@@ -5,7 +5,6 @@ import './App.css';
 function  App() {
   const [dreams, setDrems] = useState(data);
   const [showMore, setShowMore] = useState(false);
-  //const [showText, setShowText] = useState(description);
   let [myClassName, setMyClassName] = useState("");
 
   const setNewClass = () => {
@@ -20,15 +19,6 @@ function  App() {
     setDrems(newDreams);
   }
 
-    const showNewText = () => {
-      showMore && (
-        <div>
-            <h3> {place} </h3>
-            <p> {description} </p>
-          </div>
-        )
-      }
-
   return (
     <div>
       <div className="container">
@@ -42,8 +32,16 @@ function  App() {
         <div className="imageContainer">
           <img className="image" src={image}  alt="image"/>
           <div className="btn">
-            <p onClick={showNewText}> 
-              <button className="button" onClick={() => setShowMore(!showMore )}>Show more</button>
+          <div>
+            {showMore && (
+              <div>
+                <h3> {place} </h3>
+                <p> {description} </p>
+              </div>
+            )}
+            </div>
+            <p> 
+              <button className="button" onClick={() => setShowMore(!showMore )}>{showMore ? "Show less" : "Show more"}</button>
             </p>
             <button className="button" onClick={() => removeDream(id)}>Dream fulfilled</button>
         </div>
