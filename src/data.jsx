@@ -3,7 +3,6 @@ import santaPicture from './picture/santa.jpg';
 import safariPicture from './picture/safari.jpg';
 import mauritiusPicture from './picture/mauritius.jpg';
 import disneylandPicture from './picture/disneyland.jpg';
-import carnivalPicture from './picture/carnival.jpg';
 import cappadociaPicture from './picture/cappadocia.jpg';
 
 export const data = [
