@@ -18,7 +18,7 @@ function dreamCard ({ dream, removeDream }) {
                 <button 
                     className="button"
                     onClick={() => {setShowMore(!showMore)}}>
-                        { showMore? "Show less" : "Show more" }
+                        { showMore ? "Show less" : "Show more" }
                 </button>
                 <button 
                     className="button" 
