@@ -24,3 +24,6 @@ Here used:</p>
       <img src="https://img.icons8.com/?size=48&id=108784&format=png" alt="JavaScript" width="40px"/>
       <img src="https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000" alt="React" width="40px"/>
   </div>
+
+  ### :hammer_and_wrench: Notes
+You can use my project for educational purposes.
