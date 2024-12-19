@@ -1,20 +1,19 @@
 import { useState } from "react";
 
-function DreamCard ({ dream, removeDream }) {
+function dreamCard ({ dream, removeDream }) {
     const { id, place, image, description } = dream;
     const [ showMore, setShowMore ] = useState(false);
 
     return (
         <div>
             <div className="container">
-                <img src={ image } width={300} alt="place"/>
-            </div>
-            <div>
+                <img className="image" src={ image } width={400} alt="place"/>
                 {showMore&& (
-                    <h3>{ id } - { place }</h3>,
-                    <p>{ description }</p>
+                    <div className="nameContainer">
+                        <h3>{ id } - { place }</h3>
+                        <p>{ description }</p>
+                    </div>
                 )}
-            </div>
             <div className="btn">
                 <button 
                     className="button"
@@ -27,8 +26,9 @@ function DreamCard ({ dream, removeDream }) {
                         Dream fulfilled
                 </button>
             </div>
+            </div>
         </div>
     )
 }
 
-export default DreamCard;
+export default dreamCard;

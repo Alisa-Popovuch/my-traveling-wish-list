@@ -4,6 +4,7 @@ import safariPicture from './picture/safari.jpg';
 import mauritiusPicture from './picture/mauritius.jpg';
 import disneylandPicture from './picture/disneyland.jpg';
 import cappadociaPicture from './picture/cappadocia.jpg';
+import carnavalPicture from './picture/carnival.jpg';
 
 export const data = [
     {
@@ -52,5 +53,13 @@ export const data = [
         image: cappadociaPicture,
         description: "Cappadocia is world famous for its cosmic landscapes. Volcanic lava formed bizarre rocks, pyramids, dunes and pillars of different colors. In these mountains, ancient people built entire underground cities - long labyrinths meandering inside the rocks, connecting living quarters. But I want to go to Cappadocia not only to admire the beautiful scenery, but also to fulfill my old dream - to fly in a hot air balloon.",
         showMore: false
-    }                           
+    },
+    
+    {
+        id: 7,
+        place: "Brazilian carnival",
+        image: carnavalPicture,
+        description: "The Brazilian Carnival is an annual festival in Brazil, it is the country's largest folk festival. The Rio Carnival fully symbolizes the wildness and freedom of the south, showing its wonderful independence, which is more than reflected in the fiery samba and sonorous Brazilian songs.",
+        showMore: false
+    }
 ]
