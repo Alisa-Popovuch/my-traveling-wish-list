@@ -6,7 +6,7 @@
   <img src="https://komarev.com/ghpvc/?username=Alisa-Popovuch&style=flat-square&color=red" alt="" width="150px"/>
 </div>
 
-### :hammer_and_wrench: About Website
+### :hammer_and_wrench: About Application
 <p>The application was written based on my future travel list. While writing it, I consolidated the material I had learned and learned new material. 
 Here used:</p>
 <ul>
