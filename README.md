@@ -3,7 +3,7 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnlvb3lpdnBod3ZqaHZ5cmJiNzZvMXE4dzJzaGhpaTh1b2xnMTQ3MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w1eatlCL6TSFnt7jjU/giphy.gif" alt="" width="200px"/>
 </div>
 <div id="header" align="center">
-  <img src="https://komarev.com/ghpvc/?username=Alisa-Popovuch&style=flat-square&color=red" alt="" width="150px"/>
+  <img src="https://komarev.com/ghpvc/?username=Alisa-Popovuch&style=flat-square&color=blue" alt="" width="150px"/>
 </div>
 
 ### :hammer_and_wrench: About Application
